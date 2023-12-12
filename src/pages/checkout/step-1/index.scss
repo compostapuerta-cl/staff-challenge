@@ -1,0 +1,22 @@
+@import "./layout/index";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/buttons";
+
+@import "bootstrap/scss/forms";
+
+body {
+    padding-bottom: 4vh;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    padding: 4vh 0;
+}
+
+section {
+    padding: 4vh 0;
+}

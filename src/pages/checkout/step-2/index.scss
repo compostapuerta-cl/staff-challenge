@@ -1,0 +1,22 @@
+@import "../../../layout/index";
+@import "bootstrap/scss/grid";
+
+@import "bootstrap/scss/media";
+
+p {
+    font-size: 1.2em;
+    padding-top: 0.5rem;
+}
+
+.client {
+    p {
+        font-size: 1.5em;    
+    }
+}
+
+.product .media {
+    img {
+        max-width: 200px;
+        max-height: 150px;
+    }
+}

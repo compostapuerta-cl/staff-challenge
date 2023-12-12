@@ -1,0 +1,28 @@
+@import "../index";
+
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+
+@import "bootstrap/scss/utilities";
+
+
+
+.logo {
+  animation: logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+@keyframes logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.items {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: gray("100");
+  text-align: center;
+  background: theme-color("dark");
+  display: inline-block;
+}

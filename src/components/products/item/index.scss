@@ -1,0 +1,32 @@
+$card-border-width: 0;
+
+@import "../index";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/buttons";
+
+.product {
+    padding: 1rem 2rem;
+
+    input { 
+        text-align: center; 
+    }
+
+    img {
+        height: 200px;
+    }
+}
+
+.quantity {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 2px;
+    padding-bottom: 1vh;
+
+    button {
+        font-size: 1.3em;
+    }
+}
+
+.card-body {
+    padding: 1.25rem 0;
+}

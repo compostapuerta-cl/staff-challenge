@@ -1,0 +1,9 @@
+@import "../../layout/index";
+@import "bootstrap/scss/card";
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 20px;
+}
